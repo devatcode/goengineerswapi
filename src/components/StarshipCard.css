@@ -1,0 +1,41 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.image {
+  width: 300px;
+  max-width: 100%;
+  max-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+h2 {
+  transition: color 0.3s ease;
+}
+
+.card:hover h2 {
+  color: #007bff;
+}
+
+button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
